@@ -1,0 +1,9 @@
+MyPortfolio/
+music/*
+album/*
+!music/.gitkeep
+!album/.gitkeep
+__pycache__/
+*.pyc
+venv/
+.env
