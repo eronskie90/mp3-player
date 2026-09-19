@@ -1,39 +1,57 @@
 # MP3 Player
 
-A desktop MP3 player built with Python, Tkinter, Pygame, and Pillow.
+A desktop MP3 player with spotify like ui built with Python, Tkinter, Pygame, and Pillow.
 
 ## Features
 
-* Play and pause music
-* Resume playback
-* Stop music
-* Next track
-* Add songs to the playlist
-* Volume control
-* Progress tracking
-* Album cover display
-* Playlist management
-* Automatic music and album folder handling
+- Play and pause music
+- Resume playback
+- Stop music
+- Next track
+- Add songs to the playlist
+- Volume control
+- Progress tracking
+- Album cover display
+- Playlist management
+- Automatic music and album folder handling
 
 ## Technologies Used
 
-* Python
-* Tkinter
-* Pygame
-* Pillow
+- Python
+- Tkinter
+- Pygame
+- Pillow
 
 ## Project Structure
 
-```text
-mp3-player/
-|-- playlist.py
-|-- requirements.txt
-|-- .gitignore
-|-- album/
-|   `-- .gitkeep
-`-- music/
-    `-- .gitkeep
-```
+````text
+└── mp3-player/
+    ├── album.py
+    ├── config.py
+    ├── imaging.py
+    ├── library.py
+    ├── main.py
+    ├── player.py
+    ├── README.md
+    ├── requirements.txt
+    ├── utils.py
+    │
+    ├── ui/
+    │   ├── app.py
+    │   ├── icons.py
+    │   ├── now_playing.py
+    │   ├── player_bar.py
+    │   ├── playlist_panel.py
+    │   ├── styles.py
+    │   ├── track_list.py
+    │   ├── widgets.py
+    │   └── __init__.py
+    │
+    ├── music/
+    │   └── .gitkeep
+    └── album/
+        └── .gitkeep
+
 
 ## Installation
 
@@ -43,7 +61,7 @@ mp3-player/
 
 ```bash
 pip install -r requirements.txt
-```
+````
 
 3. Add your own music files to the `music` folder.
 
@@ -52,7 +70,7 @@ pip install -r requirements.txt
 5. Run the application:
 
 ```bash
-python playlist.py
+python main.py
 ```
 
 ## Notes
